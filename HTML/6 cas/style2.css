@@ -1,0 +1,30 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1 {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 300px;
+  /* overflow: visible; defpulna vrednost  */
+  /* overflow: hidden; sakriti text koji ne moze da stane*/
+  /* overflow: scroll; skrolovati tet koji je visak */
+  /* overflow: auto; varijanta koja sama odredjuje da li je potreban scroll  */
+}
+
+.div2 {
+  background-color: red;
+  width: 200px;
+  height: 150px;
+}
+.div2 p {
+  font-size: 20px;
+
+  font-size: 22px;
+  /* text-align: right; */
+  /* text-align:justify;sluzi za podudaranja tacno ivica */
+  /* text-align-last:right ;poslednji red sa desne strane */
+  text-align-last: right;
+}
+
+/* Domaci:Da se nalazi kontejnet sirine 500px visine 400px  pozadina prema zelji naslov velicine h2 boje bordo i paragraf od 60 karaktera bje tamno plave,paragraf treba biti centriran neka bude podesen overflow auto na kontejner,kontejner imati klasu .main.Velicina slova da bude 20px*/

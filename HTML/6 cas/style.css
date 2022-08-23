@@ -1,0 +1,26 @@
+h1 {
+  color: blueviolet;
+}
+
+.main h1 {
+  color: red;
+}
+
+.main > p {
+  color: blue;
+}
+
+div + p {
+  color: black;
+}
+#childdiv {
+  background-color: purple;
+}
+#childdivclass {
+  background-color: black;
+}
+
+/* id ima prednost u odnosu na klasu */
+/* + predstavlja prvi element nakon diva a ne svaki sledeci  */
+
+/* id-u se pristupa pomocu # a classi .  npr div class="main">*/

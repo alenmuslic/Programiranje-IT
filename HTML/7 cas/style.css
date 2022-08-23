@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.kontejner {
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+  background: blue;
+  border: 0px solid #ff0000;
+  padding: 30px;
+  margin: 30px;
+  /* margin-left: 100px; */
+  /* margin-top: 40px; */
+  /* margin: 10px 20px 30px 40px; */
+  margin: 15px auto;
+  margin-top: 10px;
+  /* Ako imamo cetri vrednosti za svojstvo margin prva je za top drga right treca down cetvrta left */
+  /* margin: 10px 20px 30px;  Gore levo desno dole*/
+
+  /* border: 3px dashed red; */
+  /* border: 3px solid red; */
+  /* border: 3px double red; */
+  padding: 20px 7px 15px;
+  /* border-radius: 10px 20px 30px 40px; */
+  box-shadow: 3px 3px 100px rgba(0, 0, 0, 1);
+  box-shadow: -3px -3px 100px rgba(0, 0, 0, 1); ako zelimo da se efekat postigne na vrh s
+}
+button {
+  width: 80px;
+  height: 60px;
+}
+p {
+  text-align-last: center;0
+
+  text-align: justify;
+}
+
+
+p:hover {
+  background: rgb(241, 165, 24);
+}
