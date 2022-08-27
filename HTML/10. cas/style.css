@@ -1,0 +1,40 @@
+/* 2. nacin primene externe stilove */
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+body {
+  font-family: "Kalam", cursive;
+}
+
+.main {
+  margin: 20px auto;
+  width: 400px;
+  height: 500px;
+  background: lightgreen;
+  padding: 15px;
+}
+
+.main h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.main p {
+  text-indent: 5px;
+  text-align: justify;
+  text-align-last: center;
+}
+.text-for-icons {
+  padding-left: 10px;
+}
+
+#icon {
+  font-size: 35px;
+  color: aliceblue;
+}
+#ikonica {
+  font-size: 30px;
+}
+
+#icon:nth-last-of-type(2) {
+  color: red;
+  background-color: aquamarine;
+}
