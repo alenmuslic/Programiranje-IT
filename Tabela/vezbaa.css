@@ -1,0 +1,12 @@
+.main {
+  margin: 20px auto;
+  width: 600px;
+  height: 500px;
+  padding: 15px;
+}
+.main tr {
+  background-color: orange;
+}
+.main table {
+  background-color: black;
+}
