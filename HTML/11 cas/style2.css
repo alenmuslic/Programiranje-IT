@@ -33,8 +33,15 @@
   margin: auto;
   width: 600px;
   height: 500px;
-  background-image: url(./more.jpg);
+  background-image: url(./more.jpg), url(./Aziz_Shavershian_in_2011.jpg);
   background-repeat: no-repeat;
+  /* background no repeat za ne ponavljanje slike */
   background-size: contain;
-  background-size: cover;
+  /*  */
+  /* background-size: cover; */
+  /* background-size: 100%; */
+  /* Samo bredost za sirinu */
+  /* background-size: 100% 50%; */
+  /* Prva vrednost sw odnosi na sirinu druga na visinu */
+  background-size: 100% 50%, 100% 100%;
 }
