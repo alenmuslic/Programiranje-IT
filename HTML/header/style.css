@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam";
+  font-size: 25px;
+}
+header {
+  width: 100vw;
+  height: 25vh;
+  background-color: aqua;
+}
+.img {
+  width: 10%;
+  height: 75%;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+}
+
+.links {
+  display: block;
+  margin-left: 55rem;
+}
+
+.links a {
+  font-size: 0.5 rem;
+  text-decoration: none;
+  color: blueviolet;
+  padding-right: 0.5rem;
+  text-transform: uppercase;
+  cursor: zoom-in;
+  /* cursos je kako ce nas mis da se ponasa kad predjemo preko nekog linka */
+}
+
+.links a:hover {
+  padding: 0.5rem;
+  background-color: red;
+  border: 0.2px;
+}
+
+.links a:visited {
+  padding: 0.5rem;
+  background-color: blue;
+  border: 2px;
+}
+
+.links a:active {
+  padding: 0.5rem;
+  color: red;
+  border-radius: 10px;
+}
