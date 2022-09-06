@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+
+  float: left;
+}
+
+.box1 {
+  background-color: rgba(27, 117, 117, 0.6);
+}
+
+.box2 {
+  background-color: rgba(202, 48, 48, 0.6);
+}
+.box3 {
+  background-color: silver;
+}
+
+.box4 {
+  background-color: blue;
+}
+.box5 {
+  background-color: green;
+}
+
+.box6 {
+  background-color: purple;
+}
+
+.box7 {
+  background-color: yellow;
+}
+
+.box8 {
+  background-color: green;
+}

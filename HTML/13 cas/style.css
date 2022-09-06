@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 500px;
+  height: 55vh;
+  float: left;
+}
+
+p {
+}
+
+.first {
+  width: 500px;
+  height: 55vh;
+  background-color: rgba(65, 106, 217, 0.1);
+  clear: both;
+  float: right;
+}
+
+.secound {
+  width: 40%;
+  height: 70vh;
+  background-color: purple;
+  clear: both;
+  float: left;
+}
