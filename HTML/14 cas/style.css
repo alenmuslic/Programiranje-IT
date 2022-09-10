@@ -1,0 +1,71 @@
+body {
+  font-family: "Antonio";
+  background-color: #f0f2f5;
+}
+.kontejner {
+  padding-top: 190px;
+  padding-bottom: 190px;
+}
+.levo {
+  margin-left: 150px;
+  margin-right: 150px;
+  float: left;
+}
+.levo h1 {
+  color: rgb(60, 60, 201);
+  font-size: 45px;
+}
+.levo h2 {
+  font-size: 35px;
+}
+
+.desno {
+  display: inline-block;
+  width: 400px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.desno input {
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 270px;
+  margin-bottom: 16px;
+  border-color: #dddfe2;
+}
+.desno button {
+  width: 65%;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #1877f2;
+  color: white;
+  border-color: transparent;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+a {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.desno {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.desno button:nth-of-type(2) {
+  background-color: #42b72a;
+}
+p {
+  margin-left: 800px;
+  font-size: 15px;
+}
