@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 1000px;
+  width: 80%;
+  background-color: aqua;
+  margin: auto;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 300px;
+  background: red;
+  top: 100px;
+  z-index: 10;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 350px;
+  background: blue;
+  top: 40px;
+  z-index: 40;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 400px;
+  background: purple;
+  top: 10px;
+  z-index: 30;
+}

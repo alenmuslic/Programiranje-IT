@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Mulish:ital@1&family=Oswald&family=Roboto+Mono:wght@500&family=Silkscreen&family=Work+Sans:wght@100&display=swap");
+
+body {
+  font-family: "Mulish";
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 2rem auto;
+  width: 90%;
+  background-color: #7fffd4;
+  height: 200vh;
+  position: relative;
+  /* position: absolute; */
+}
+
+.box1 {
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+  /* position: static;defaultn vrednos kod position static */
+  /* relative nam omugucava da pomeramo element gde hocemo da se nadje,ostavlja rezervisan prostor tu se nece naci element drugi */
+  /* Dobijamo mogucnost pomeranje elmenta sa svih strana u odnosu na perent element */
+  position: relative;
+  top: 0px;
+  left: 50%;
+  right: 0px;
+  bottom: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.box2 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(207, 219, 31);
+  /* apsolute oslobadja svoju vresnost to jest dozvoljava drugima da se ubace na njegovom mestu */
+  /* Abdlute ne cuva prostor na kome se on nalazio tu ce se automatsi naci sledeci elemnt */
+  /* Dobijamo mogucnost pomeranja elementa sa svih strana u odnosu na perent element */
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  top: 0px;
+  right: 0px;
+}
+
+.box3 {
+  width: 120px;
+  height: 130px;
+  background-color: rgb(67, 214, 165);
+  text-align: center;
+  font-size: 50px;
+  /* fixed ne cua posto na kom se nalazi,ne cuva svoje mesto,dobija mogucnost pomeranja u odnosu na celu stranicu,kada skrolamo fixed ostaje na svom mestu */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.box4 {
+  width: 120px;
+  height: 130px;
+  background-color: rgb(211, 108, 160);
+  text-align: center;
+  font-size: 50px;
+  position: sticky;
+  /* Stiky cuva prostor na kome se nalazi */
+  /* dobijamo moguscnos pmeranja elemenata sa svih strana u renutno postavljeni element */
+  left: 100px;
+  top: 0px;
+  z-index: 20;
+}
+
+.box5 {
+  width: 120px;
+  height: 125px;
+  background-color: rgb(43, 224, 19);
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  z-index: 20;
+}

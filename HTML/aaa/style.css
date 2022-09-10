@@ -1,0 +1,10 @@
+.first {
+  width: 50%;
+  height: 50vh;
+  background-color: rgba(0, 0, 139, 0.2);
+}
+
+.second {
+  width: 50%;
+  height: 50vh;
+}
