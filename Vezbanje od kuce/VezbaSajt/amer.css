@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Crimson Text", serif;
+}
+
+.glava {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  padding-top: 20px;
+}
+.logo {
+  font-size: 22px;
+  color: white;
+}
+.logo h2 {
+  margin-left: 150px;
+  position: relative;
+  top: 8px;
+}
+.links {
+  display: flex;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  position: relative;
+  left: 1100px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  bottom: 20px;
+}
+button {
+  position: relative;
+  left: 1100px;
+  bottom: 30px;
+  margin-left: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.home {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.isto {
+  width: 250px;
+  height: 220px;
+  background-color: rgb(222, 219, 219);
+}
+.isto p {
+  text-align: center;
+}
+.isto h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.isto i {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 115px;
+  font-size: 35px;
+}
+.okretanje {
+  width: 250px;
+  height: 220px;
+  background-color: rgb(222, 219, 219);
+}
+.margin {
+  margin-left: 100px;
+}
+.okretanje {
+  position: relative;
+  top: 50px;
+}
+.okretanje i {
+  position: relative;
+  left: 115px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-size: 35px;
+}
+.okretanje h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.okretanje p {
+  text-align: center;
+}
+.call {
+}
+.durden {
+  position: relative;
+  left: 400px;
+  top: -420px;
+  width: 250px;
+  height: 220px;
+  background-color: rgb(222, 219, 219);
+}
+.durden i {
+  position: relative;
+  left: 115px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-size: 35px;
+}
+.durden h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.durden p {
+  text-align: center;
+}
+.ado {
+  width: 250px;
+  height: 220px;
+  background-color: rgb(222, 219, 219);
+  position: relative;
+  top: -370px;
+  left: 390px;
+}
+.ado i {
+  position: relative;
+  left: 115px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-size: 35px;
+}
+.ado h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ado p {
+  text-align: center;
+}
+.slika img {
+  position: relative;
+  top: -920px;
+  left: 700px;
+}

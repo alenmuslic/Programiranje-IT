@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* flex grow-SVOJSTVA ZAUZIMA SE CELPKUPNA SIRINA PERENT KONTEJNERA */
+/* DEFINISANJE SIRINE NEKOG CHILD ELEMENTA VI ZAPRAVO PREDSTAVILO MINIMALNU SITINO TOG ELEMENTA */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  width: 75%;
+  height: 700px;
+  display: flex;
+  background-color: aqua;
+  margin: auto;
+}
+.box {
+  flex-shrink: 3;
+  flex-grow: 1;
+  /* flex-basis: 250px; */
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+}
+
+.box2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  /* width: 250px; */
+  height: 150px;
+  background-color: rgb(140, 0, 255);
+}
+
+.box3 {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  /* width: 250px; */
+  height: 150px;
+  background-color: rgb(219, 168, 0);
+}

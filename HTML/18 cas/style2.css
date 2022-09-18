@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* flex grow-SVOJSTVA ZAUZIMA SE CELPKUPNA SIRINA PERENT KONTEJNERA */
+/* DEFINISANJE SIRINE NEKOG CHILD ELEMENTA VI ZAPRAVO PREDSTAVILO MINIMALNU SITINO TOG ELEMENTA */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  /* flex-direction: row; defaultna vrednost */
+  flex-direction: column;
+  width: 75%;
+  height: 700px;
+  display: flex;
+  background-color: aqua;
+  margin: auto;
+  /* HORIZONTALNO PORAVNANJE CE SADA BITI: */
+  align-items: center;
+  /* VERTIKALNO PORAVNANJE CE SADA BITI: */
+  justify-content: space-between;
+}
+.box {
+  align-self: flex-start;
+  width: 150px;
+  flex-shrink: 1;
+  /* flex-grow: 1; */
+  /* flex-basis: 150px; */
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+}
+
+.box2 {
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+
+  width: 150px;
+  height: 150px;
+  background-color: rgb(140, 0, 255);
+}
+
+.box3 {
+  align-self: end;
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+
+  width: 150px;
+  height: 150px;
+  background-color: rgb(219, 168, 0);
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  background-color: blanchedalmond;
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(116, 15, 105);
+  order: 3;
+
+  /* ORDER SLUZI ZA ZAMENU  KONTEJNERA kada kazemo order 1 u box2 zamenice se ta 2 elementa */
+}
+.box2 {
+  flex-basis: 150px;
+  /* praksa umesto width flex basis */
+  height: 150px;
+  background-color: rgb(112, 25, 194);
+  order: 1;
+}
+.box3 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(174, 248, 2);
+  order: 2;
+  overflow: auto;
+}
