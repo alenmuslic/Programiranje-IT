@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.perent {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgb(219, 5, 5);
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(216, 29, 29);
+  /* transition: transform 1s ease-in-out; */
+  /* transition: transform 1s cubic-bezier(4, 0.82, 0.165, 1); */
+  transition: all 5s cubic-bezier(0.5, 0.82, 0.165, 1);
+  /* transition-property: transform 1s; */
+  /* transition-delay: ; */
+  /* transition-duration: 2s; */
+  /* transition-timing-function: ease-in-out; */
+}
+
+.perent:hover .child {
+  /* x horizontlno Y vertikalno pomeranje */
+  transform: translateX(250px) translateY(250px);
+  background-color: aqua;
+  /* transition: reansform 5s cubic-bezier(0.5, 0.82, 0.165, 1); */
+}

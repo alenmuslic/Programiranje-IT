@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.perent {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(85, 7, 61);
+  box-shadow: rgb(247, 247, 247);
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 30, 0);
+  transition: all 2s cubic-bezier(1, 1, 1, 1, 1, 1);
+}
+
+.perent:hover .child {
+  animation: top-to-bottom 5s ease-in-out forwards;
+  animation-name: top-to-bottom;
+  /* animation-duration: 1s; */
+  animation-timing-function: ease-in-out;
+  /* animation-fill-mode: forwards; */
+  /* animation-iteration-count: 3; */
+  animation-direction: alternate;
+}
+
+@keyframes top-to-bottom {
+  20% {
+    transform: translateX(250px);
+  }
+  33% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateX(250px);
+  }
+}
