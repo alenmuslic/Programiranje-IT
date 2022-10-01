@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  height: 65vh;
+  background-color: rgb(198, 224, 224);
+}
+
+.main {
+  color: rgb(85, 78, 78);
+  text-align: center;
+}
+\ .main p {
+  font-size: 20px;
+}
+/* tipovi koji su podrzani u media quary su: */
+/* 1.All (Odnosi se na sve tipove i to je nesto sto cemo gotovo  uvek koristiti */
+/* 2.Scree (odnosi se na konkretno samo na prikaz na ekranima) */
+/* 3.print  (Odnosi se na stulove prilikom stampanja stranica) */
+/* 4.Speech (Odnosi se na stranice koje reporodkuju neki zvuk) */
