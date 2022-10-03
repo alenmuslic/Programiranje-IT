@@ -1,0 +1,157 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap");
+
+.header {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  position: sticky;
+  width: 100%;
+  height: 150px;
+
+  background-color: #fff;
+  font-size: 22px;
+}
+.header a {
+  text-decoration: none;
+  color: #7f7f90;
+}
+.header a:hover {
+  text-decoration: none;
+  color: #47060670;
+}
+.header p {
+  margin: auto;
+  margin: 18px;
+  position: relative;
+  right: 25%;
+  top: 50px;
+  font-size: 25px;
+}
+.header h1 {
+  margin: auto;
+  letter-spacing: -2px;
+  color: #000000;
+  position: relative;
+  right: 10%;
+}
+
+.header h2 {
+  font-family: "Pacifico", cursive;
+  color: #ff0000;
+  font-size: 50px;
+  position: absolute;
+  left: 410px;
+  top: 35px;
+}
+.button {
+  display: flex;
+  padding: 15px 25px;
+  position: absolute;
+  left: 83%;
+  top: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff000091;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px #999;
+}
+
+.button:hover {
+  background-color: #79a58269;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.enjoy {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  background-color: #eee;
+}
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald&family=Pacifico&display=swap");
+.enjoy h1 {
+  color: rgb(48, 48, 48);
+  position: relative;
+  top: 200px;
+  left: 150px;
+  font-size: 50px;
+  weight: 500px;
+  font-family: "Amatic SC", cursive;
+}
+
+.enjoy p {
+  font-size: 30px;
+  position: relative;
+  left: 150px;
+  color: rgb(61, 60, 60);
+}
+
+.enjoy button {
+  position: absolute;
+  left: 170px;
+  top: 540px;
+  background-color: #ff0000;
+  border-radius: 100px;
+}
+
+.enjoy button:nth-of-type(2) {
+  position: absolute;
+  left: 380px;
+  top: 540px;
+  background-color: #ff0000b7;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.enjoy button i {
+  color: red;
+  position: absolute;
+  left: 7px;
+  font-size: 40px;
+}
+.button1 {
+  display: flex;
+  padding: 15px 25px;
+  position: absolute;
+  left: 83%;
+  top: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff000091;
+  border: none;
+  border-radius: 15px;
+}
+.enjoy h3 {
+  font-size: 25px;
+  position: relative;
+  top: 70px;
+  left: 425px;
+  color: #6d5c5c;
+}
+
+.enjoy img {
+  height: 700px;
+  position: absolute;
+  left: 1200px;
+  top: 70px;
+}
