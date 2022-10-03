@@ -55,7 +55,6 @@ header button {
 }
 
 section {
-  /* flex-grow: ; */
   width: 80%;
   height: 800px;
   background-color: rgb(255, 255, 255);
