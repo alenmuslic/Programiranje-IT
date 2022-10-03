@@ -5,7 +5,266 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <p>getbootstrap.com</p>
+    <!-- <p>getbootstrap.com</p> -->
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        margin: auto;
+        box-sizing: border-box;
+      }
+      .button {
+        display: flex;
+        padding: 15px 25px;
+        position: absolute;
+        left: 88%;
+        top: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #6df3f391;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 8px #999;
+      }
+
+      .button:hover {
+        background-color: #126632;
+      }
+
+      .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      .main {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        background-color: rgba(18, 86, 131, 0.884);
+        display: flex;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+      }
+
+      .main h1 {
+        font-family: "Times New Roman", Times, serif;
+        color: rgba(0, 0, 0, 0.973);
+        font-size: 50px;
+        position: absolute;
+        text-align: center;
+        align-items: center;
+      }
+
+      .main p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: black;
+        font-size: 35px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        left: 60%;
+        /* float: right; */
+      }
+
+      .main a {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        align-items: center;
+      }
+      .kontejner {
+        display: flex;
+        width: 100%;
+        height: 90%;
+        background-color: #4278dbaf;
+        justify-content: space-between;
+        position: absolute;
+        left: 0px;
+      }
+      .box1 {
+        height: 530px;
+        width: 400px;
+        background-color: #110f83b9;
+        position: absolute;
+        top: 150px;
+        left: 110px;
+        border-radius: 15px;
+        text-align: center;
+      }
+      .box1 p {
+        position: absolute;
+        color: black;
+        top: 100px;
+        align-items: center;
+        font-size: 25px;
+      }
+.box1 i{
+  font-size: 60px;
+position: absolute;
+top: 20px;
+left: 40%;
+}
+.box2 {
+        height: 500px;
+        width: 400px;
+        background-color: #110f83b9;
+        position: absolute;
+        top: 150px;
+        left: 1400px;
+        border-radius: 15px;
+        text-align: center;
+      }
+      .box2 p {
+        position: absolute;
+        color: black;
+        top: 100px;
+        align-items: center;
+        font-size: 25px;
+      }
+.box2 i{
+  font-size: 60px;
+position: absolute;
+top: 20px;
+left: 40%;
+}
+.box3 {
+        height: 500px;
+        width: 400px;
+        background-color: #110f83b9;
+        position: absolute;
+        top: 150px;
+        left: 800px;
+        border-radius: 15px;
+        text-align: center;
+      }
+      .box3 p {
+        position: absolute;
+        color: black;
+        top: 100px;
+        align-items: center;
+        font-size: 25px;
+      }
+.box3 i{
+  font-size: 60px;
+position: absolute;
+top: 20px;
+left: 40%;
+}
+      .dugme {
+  
+        display: flex;
+        padding: 15px 25px;
+        position: absolute;
+        left: 130px;
+        top: 300px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        /* color: #fff; */
+        background-color: #6df3f391;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 8px #999;
+      }
+
+      .dugme:hover {
+        background-color: #126632;
+      }
+
+      .dugme:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+
+      img{
+        width: 100%;
+        height:100%;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="main">
+      <h1><b>BOOTSTRAP</b></h1>
+      <p>Vlasnik</p>
+      <p>Postojanje</p>
+      <p>Adresa</p>
+      <p>Ocene</p>
+      <button type="dugme" id="main" class="button">
+        <a
+          href="http://127.0.0.1:5500/HTML/18%20cas/VEZBANJE2/index.html"
+          target="_blank"
+          >Prijavi se</a
+        >
+      </button>
+    </div>
+
+    <div class="kontejner">
+      <img src="./GRAND-RING-HOTEL_35.picture.27042019.1258.5cc431f62292e6.59322083.1.jpg" alt="">
+      <div class="box1">
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <p>
+          <b> Potrebni radnici u hotelu ATLAS!! Lorem ipsum dolor sit amet,</b>
+          <br />
+
+          <b>Ako ste zainteresovani obratite se na broj 0669168435</b>
+        </p>
+        <br><br>
+        <button type="dugme" id="main" class="dugme">
+          <a
+            href="http://127.0.0.1:5500/HTML/18%20cas/VEZBANJE2/index.html"
+            target="_blank"
+            >KONTAKT</a
+          >
+      </div>
+      <div class="box2">
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <p>
+          <b> Potrebni radnici u hotelu ATLAS!! Lorem ipsum dolor sit amet,</b>
+          <br />
+
+          <b>Ako ste zainteresovani obratite se na broj 0669168435</b>
+        </p>
+        <br><br>
+        <button type="dugme" id="main" class="dugme">
+          <a
+            href="http://127.0.0.1:5500/HTML/18%20cas/VEZBANJE2/index.html"
+            target="_blank"
+            >KONTAKT</a
+          >
+      </div>
+      <div class="box3">
+        <i class="fa fa-bed" aria-hidden="true"></i>
+        <p>
+          <b> Potrebni radnici u hotelu ATLAS!! Lorem ipsum dolor sit amet,</b>
+          <br />
+
+          <b>Ako ste zainteresovani obratite se na broj 0669168435</b>
+        </p>
+        <br><br>
+        <button type="dugme" id="main" class="dugme">
+          <a
+            href="http://127.0.0.1:5500/HTML/18%20cas/VEZBANJE2/index.html"
+            target="_blank"
+            >KONTAKT</a
+          >
+      </div>
+    </div>
+  </body>
 </html>
