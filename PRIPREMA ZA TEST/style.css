@@ -10,9 +10,10 @@
 .header {
   font-family: "Oswald", sans-serif;
   display: flex;
-  position: sticky;
+  position: fixed;
+  z-index: 997;
   width: 100%;
-  height: 150px;
+  height: 135px;
 
   background-color: #fff;
   font-size: 22px;
@@ -46,8 +47,8 @@
   color: #ff0000;
   font-size: 50px;
   position: absolute;
-  left: 410px;
-  top: 35px;
+  left: 400px;
+  top: 30px;
 }
 .button {
   display: flex;
@@ -64,26 +65,27 @@
   background-color: #ff000091;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 8px #999;
+  box-shadow: 0 8px #999999;
 }
 
 .button:hover {
-  background-color: #79a58269;
+  background-color: #09531769;
 }
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #c9f7ca5e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
 .enjoy {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-size: cover;
   position: relative;
   background-color: #eee;
 }
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100&family=Oswald&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald&family=Pacifico&display=swap");
 .enjoy h1 {
   color: rgb(48, 48, 48);
@@ -150,8 +152,99 @@
 }
 
 .enjoy img {
-  height: 700px;
+  height: 650px;
   position: absolute;
   left: 1200px;
-  top: 70px;
+  top: 150px;
+}
+
+.drugi {
+  width: 100%;
+  height: 140vh;
+  background-color: #ffffff54;
+  display: block;
+  position: relative;
+  margin-top: 100px;
+
+  text-align: center;
+}
+
+.drugi h3 {
+  color: #666;
+  position: relative;
+  top: 80px;
+  font-size: 20px;
+}
+.drugi h1 {
+  position: relative;
+  top: 100px;
+  font-family: "Amatic SC", cursive;
+  color: #000000c2;
+  font-size: 30px;
+  left: -50px;
+}
+
+.drugi h1:nth-of-type(2) {
+  color: red;
+  position: absolute;
+  top: 123px;
+  left: 1080px;
+}
+.bog {
+  font-size: 40px;
+  position: absolute;
+  top: 850px;
+  left: 300px;
+  background-color: #fff;
+  width: 700px;
+  height: 150px;
+}
+.bog p {
+  position: relative;
+  top: 20px;
+}
+.drugi img {
+  position: absolute;
+  /* width: 400px; */
+  width: 900px;
+  height: 950px;
+  left: 200px;
+  top: 250px;
+}
+
+.drugi2 {
+  height: 900px;
+  /* background-color: aqua; */
+  width: 600px;
+  justify-content: space-between;
+  position: absolute;
+  right: 250px;
+  font-size: 25px;
+  top: 250px;
+  text-align: left;
+  display: block;
+}
+.sredina {
+  position: relative;
+  left: 20px;
+}
+.sredina i {
+  color: red;
+}
+
+.i img {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  left: 0px;
+  top: 600px;
+}
+
+.i i {
+  font-size: 100px;
+  position: relative;
+  z-index: 900;
+  top: 180px;
+  color: red;
+  left: 200px;
 }
