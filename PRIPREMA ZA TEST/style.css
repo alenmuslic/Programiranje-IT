@@ -10,7 +10,8 @@
 .header {
   font-family: "Oswald", sans-serif;
   display: flex;
-  position: fixed;
+  position: sticky;
+  top: 0px;
   z-index: 997;
   width: 100%;
   height: 135px;
@@ -165,7 +166,6 @@
   display: block;
   position: relative;
   margin-top: 100px;
-
   text-align: center;
 }
 
@@ -190,7 +190,7 @@
   top: 123px;
   left: 1080px;
 }
-.bog {
+.broj {
   font-size: 40px;
   position: absolute;
   top: 850px;
@@ -199,7 +199,7 @@
   width: 700px;
   height: 150px;
 }
-.bog p {
+.broj p {
   position: relative;
   top: 20px;
 }
@@ -247,4 +247,194 @@
   top: 180px;
   color: red;
   left: 200px;
+}
+
+.trecikontejner {
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  display: block;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.prviii {
+  width: 550px;
+  height: 650px;
+  background-color: #cb1313;
+  position: absolute;
+  float: left;
+  top: 150px;
+  left: 100px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.prviii h1 {
+  text-align: left;
+  color: white;
+  position: relative;
+  left: 50px;
+  font-size: 50px;
+  top: 50px;
+}
+.prviii p {
+  color: white;
+  position: absolute;
+  left: 50px;
+  top: 210px;
+  font-size: 28px;
+}
+
+.batn {
+  height: 70px;
+  width: 180px;
+  position: absolute;
+  bottom: 50px;
+  left: 180px;
+  border-radius: 50px;
+  background-color: #f3bfbfa2;
+  font-size: 20px;
+  color: white;
+  border: 0px;
+}
+.batn:hover {
+  background-color: rgba(224, 175, 175, 0.836);
+}
+
+.aa {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.danica {
+  width: 350px;
+  height: 580px;
+  background-color: white;
+  position: absolute;
+  font-size: 20px;
+  left: 700px;
+  top: 175px;
+}
+
+.danica h1 {
+  font-size: 35px;
+}
+.danica p {
+  font-size: 27px;
+}
+.danica i {
+  font-size: 60px;
+  background-color: #cb13139a;
+  width: 100px;
+  height: 70px;
+  border-radius: 90px;
+  position: relative;
+
+  top: 30px;
+}
+
+.danica {
+  width: 350px;
+  height: 580px;
+  background-color: white;
+  position: absolute;
+  font-size: 20px;
+  left: 700px;
+  top: 175px;
+  border-radius: 20px;
+}
+
+.danica h1 {
+  font-size: 35px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.danica p {
+  font-size: 27px;
+
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+
+.danica i {
+  font-size: 55px;
+  background-color: #cb131341;
+  width: 100px;
+  height: 70px;
+  border-radius: 90px;
+  position: relative;
+  top: 80px;
+}
+
+.zvezda {
+  width: 350px;
+  height: 580px;
+  background-color: white;
+  position: absolute;
+  font-size: 20px;
+  left: 1100px;
+  top: 175px;
+  border-radius: 20px;
+}
+
+.zvezda h1 {
+  font-size: 35px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.zvezda p {
+  font-size: 27px;
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+.zvezda i {
+  font-size: 55px;
+  background-color: #cb13133f;
+  width: 100px;
+  height: 70px;
+  border-radius: 90px;
+  position: relative;
+
+  top: 80px;
+}
+
+.metara {
+  width: 350px;
+  height: 580px;
+  background-color: white;
+  position: absolute;
+  font-size: 20px;
+  left: 1500px;
+  top: 175px;
+  border-radius: 20px;
+}
+
+.metara h1 {
+  font-size: 35px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.metara p {
+  font-size: 27px;
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+.metara i {
+  font-size: 55px;
+  background-color: #cb13133f;
+  width: 100px;
+  height: 70px;
+  border-radius: 90px;
+  position: relative;
+
+  top: 80px;
 }
