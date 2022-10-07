@@ -407,6 +407,7 @@
 
 .metara {
   width: 350px;
+  /* transform: scale(2, 3); */
   height: 580px;
   background-color: white;
   position: absolute;
@@ -414,6 +415,15 @@
   left: 1500px;
   top: 175px;
   border-radius: 20px;
+}
+.metara:hover {
+  transform: scale(1.1, 1.1);
+}
+.danica:hover {
+  transform: scale(1.1, 1.1);
+}
+.zvezda:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .metara h1 {
@@ -451,72 +461,184 @@
 
 .amer {
   width: 100%;
-  height: 1000px;
-  background-color: rgb(247, 247, 247);
+  height: 2000px;
   text-align: center;
+  position: relative;
 }
 .amer h2 {
-  color: #666;
   position: relative;
-  top: 70px;
+  color: #666;
+  top: 65px;
   font-size: 20px;
+}
+.amer h1 {
+  position: relative;
+  top: 80px;
+  left: -100px;
+  font-family: "Amatic SC", cursive;
+}
+.amer h1:nth-of-type(2) {
+  color: red;
+  position: relative;
+  left: 130px;
+  font-family: "Amatic SC", cursive;
+  top: 35px;
+}
+.amer ul {
+  display: flex;
+  width: 600px;
+  position: relative;
+  top: 80px;
+  font-size: 25px;
+  list-style: none;
+  gap: 20px;
 }
 .amer a {
   text-decoration: none;
   color: #666;
 }
-.amer h1 {
+.amer h2:nth-of-type(2) {
+  color: #666;
   position: relative;
-  font-family: "Amatic SC", cursive;
-  left: -100px;
-  top: 90px;
+  top: 130px;
 }
-
-.amer h1:nth-of-type(2) {
+.amer h1:nth-of-type(3) {
+  color: red;
+  font-size: 40px;
   position: relative;
-  font-family: "Amatic SC", cursive;
-  top: 47px;
-  left: 130px;
+  top: 140px;
+  left: 5px;
+}
+.slikajen {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 200px;
+  top: 480px;
+}
+.slikajen img {
+  width: 400px;
+}
+.slikajen p {
+  font-size: 35px;
+}
+.slikajen p:nth-of-type(2) {
+  font-size: 25px;
+}
+.slikajen h1 {
+  position: relative;
+  top: 20px;
+  left: -10px;
   color: red;
 }
-.amer p {
-  position: relative;
-  top: 5px;
-  left: 100px;
-  font-size: 31px;
-  color: #666;
-}
 
-.amer p:nth-of-type(1) {
-  position: relative;
-  color: #666;
-  left: -200px;
-  font-size: 30px;
-  top: 80px;
+.slidza {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 800px;
+  top: 480px;
 }
-
-.amer p:nth-of-type(5) {
-  /* LUNCH 5 */
-  /* DINNER 4 */
-  position: relative;
-  top: -22px;
-  color: #666;
-  left: 80px;
-  font-size: 30px;
+.slidza img {
+  width: 400px;
 }
-.amer p:nth-of-type(4) {
-  /* LUNCH 5 */
-  /* DINNER 4 */
+.slidza p {
+  font-size: 35px;
+}
+.slidza p:nth-of-type(2) {
+  font-size: 25px;
+}
+.slidza h1 {
   position: relative;
-  top: 12px;
-  color: #666;
+  top: 20px;
+  left: -10px;
+  color: red;
+}
+.slidzaaa {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 1400px;
+  top: 480px;
+}
+.slidzaaa img {
+  width: 400px;
+}
+.slidzaaa p {
+  font-size: 35px;
+}
+.slidzaaa p:nth-of-type(2) {
+  font-size: 25px;
+}
+.slidzaaa h1 {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  color: red;
+}
+.slikaje {
+  width: 400px;
+  height: 600px;
+  position: absolute;
   left: 200px;
-  font-size: 30px;
+  top: 1180px;
 }
-.amer p:nth-of-type(3) {
+.slikaje img {
+  width: 400px;
+}
+.slikaje p {
+  font-size: 35px;
+}
+.slikaje p:nth-of-type(2) {
+  font-size: 25px;
+}
+.slikaje h1 {
   position: relative;
-  top: 47px;
-  left: -60px;
-  font-size: 30px;
-  color: #666;
+  top: 20px;
+  left: -10px;
+  color: red;
+}
+.slidzza {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 610px;
+  top: 0px;
+}
+.slidzza img {
+  width: 400px;
+}
+.slidzza p {
+  font-size: 35px;
+}
+.slidzza p:nth-of-type(2) {
+  font-size: 25px;
+}
+.slidzza h1 {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  color: red;
+}
+.slidzzza {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 1200px;
+  top: 0px;
+}
+.slidzzza img {
+  width: 400px;
+}
+.slidzzza p {
+  font-size: 35px;
+}
+.slidzzza p:nth-of-type(2) {
+  font-size: 25px;
+}
+.slidzzza h1 {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  color: red;
 }
