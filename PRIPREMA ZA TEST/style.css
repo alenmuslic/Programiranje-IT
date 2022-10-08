@@ -642,3 +642,207 @@
   left: -10px;
   color: red;
 }
+.amer ul:hover {
+  transform: scale(1.01, 1.01);
+}
+
+.puding {
+  width: 100%;
+  height: 700px;
+  /* background-color: gray; */
+  text-align: center;
+  position: relative;
+}
+
+.puding h3 {
+  position: relative;
+  top: 100px;
+  color: #000000;
+}
+.puding h1 {
+  position: relative;
+  top: 110px;
+  left: -100px;
+  font-family: "Amatic SC", cursive;
+}
+.puding h1:nth-of-type(2) {
+  position: relative;
+  top: 65px;
+  left: 170px;
+  color: rgba(255, 0, 0, 0.705);
+  font-family: "Amatic SC", cursive;
+}
+
+.ajsa {
+  width: 1000px;
+  height: 340px;
+  /* background-color: blueviolet; */
+  position: absolute;
+  left: 500px;
+  top: 270px;
+}
+.ajsa p {
+  font-size: 25px;
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 50px;
+  color: black;
+}
+.ajsa i {
+  color: #cb131388;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+}
+.ajsa i:nth-of-type(1) {
+  color: #cb131388;
+  font-size: 30px;
+  position: relative;
+  left: -10px;
+}
+.ajsa h2 {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  font-size: 30px;
+}
+.ajsa h4 {
+  position: absolute;
+  left: 32px;
+  top: 230px;
+  font-size: 22px;
+  color: rgb(26, 24, 24);
+}
+.ajsa .zid {
+  background-color: rgba(255, 0, 0, 0.705);
+  width: 5px;
+  height: 340px;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+}
+
+.zvezde i {
+  position: relative;
+  top: 450px;
+  left: -400px;
+  font-size: 30px;
+  color: rgb(236, 236, 78);
+}
+.ajsa img {
+  border-radius: 1000px;
+  width: 300px;
+  position: absolute;
+  right: -350px;
+  top: 60px;
+}
+
+.hatidza {
+  width: 100%;
+  height: 2000px;
+  /* background-color: #f19494; */
+  text-align: center;
+}
+.hatidza ul {
+  font-size: 25px;
+  display: flex;
+  list-style: none;
+  width: 100px;
+  gap: 5px;
+  position: relative;
+  left: -130px;
+  top: 100px;
+}
+.hatidza h2 {
+  position: relative;
+  top: 80px;
+}
+.ajsica {
+  width: 1500px;
+  height: 600px;
+
+  position: relative;
+  top: 200px;
+  background-color: rgb(218, 224, 205);
+}
+
+.ajsica img {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 500px;
+}
+
+.leni {
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  gap: 1px;
+}
+
+.prvi1 {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 80px;
+}
+.drugi22 {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 80px;
+}
+.treci3 {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 80px;
+}
+.cetvrti4 {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+}
+.peti5 {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+}
+.sesti6 {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+}
+
+.poruka {
+  width: 910px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+}
+
+.klik {
+  background-color: red;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  border-radius: 100px;
+  height: 70px;
+  position: relative;
+  top: 100px;
+}
+
+.klik:hover {
+  background-color: #09531769;
+}
+
+.klik:active {
+  background-color: #25b3275e;
+  box-shadow: 0 5px rgb(53, 8, 8);
+  transform: translateY(4px);
+}
