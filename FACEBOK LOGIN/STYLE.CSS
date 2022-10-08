@@ -1,0 +1,72 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+.pozadina {
+  width: 100%;
+  position: relative;
+  height: 1000px;
+  background-color: rgba(95, 158, 160, 0.342);
+}
+
+.facebook {
+  width: 700px;
+  height: 400px;
+  /* background-color: aqua; */
+  left: 200px;
+  position: absolute;
+  top: 300px;
+}
+.facebook h1 {
+  font-size: 100px;
+  color: blue;
+}
+.facebook p {
+  font-size: 38px;
+}
+
+.pod {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  right: 200px;
+  border-radius: 20px;
+}
+
+.prvi {
+  width: 550px;
+  height: 80px;
+  border-radius: 10px;
+  padding-left: 70px;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  background-color: whitesmoke;
+}
+.drugi {
+  width: 550px;
+  height: 80px;
+  border-radius: 10px;
+  padding-left: 70px;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+  top: 40px;
+  background-color: whitesmoke;
+}
+
+.dugme {
+  background-color: #1877f2;
+  position: absolute;
+  bottom: 280px;
+  left: 20px;
+  width: 550px;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
