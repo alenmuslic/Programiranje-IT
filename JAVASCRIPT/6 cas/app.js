@@ -59,3 +59,26 @@ for (let i = 1; i <= 20; i += 2) {
     console.log(i);
   }
 }
+
+// Ispisati sve brojeve od 50 do 100 koji su deljivi sa 5
+
+for (let broj = 50; broj <= 100; broj++) {
+  //broj++ === broj= broj=1;
+  if (broj % 5 === 0) {
+    console.log(broj);
+  }
+}
+
+//Ispisati dvostruju vrednost prirodnih brojeva od 6 do 64
+for (a = 6; a <= 14; a++) {
+  console.log(a * 2);
+}
+
+//Suma parnih prirodnih brojeva od 10 d0 20
+let suma = 0;
+for (i = 10; i <= 20; i++) {
+  if (i % 2 !== 0) {
+    suma += i;
+  }
+}
+console.log(suma);
