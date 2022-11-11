@@ -56,3 +56,8 @@ do {
   console.log(broj1);
   broj1++;
 } while (broj1 < 6);
+
+// Domaci: Preko switch naredbe:
+//Na osnovu vrednosti koju nam daje izzraz iz switch naredbe kroz caseove i eventualno default ispisati poruku:
+("danas je... ");
+("uGODNO  PROVEDITE VIKEND");
