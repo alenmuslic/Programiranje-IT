@@ -15,7 +15,7 @@
 //     i++;
 // }
 
-// // Traziti od korisnika da unese neki broj. Na osnovu te vrednosti izvrsiti ispis kvadrata brojva od 1 do tog unetog broja
+// Traziti od korisnika da unese neki broj. Na osnovu te vrednosti izvrsiti ispis kvadrata brojva od 1 do tog unetog broja
 // let i = 1;
 // let a = +prompt("Unesite a:");
 

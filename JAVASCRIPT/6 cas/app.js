@@ -26,7 +26,7 @@
 
 // continue znaci kada hocemo nesto da zaobidjemo da ne pise nista i da odma predje na sledeci element
 
-// // 2. nacin
+//2. nacin
 // for (let i = 1; i < 11; i++) {
 //   if (i === 2 || i === 5) {
 //     continue;
@@ -69,15 +69,15 @@ for (let broj = 50; broj <= 100; broj++) {
   }
 }
 
-//Ispisati dvostruju vrednost prirodnih brojeva od 6 do 64
+// Ispisati dvostruju vrednost prirodnih brojeva od 6 do 64
 for (a = 6; a <= 14; a++) {
   console.log(a * 2);
 }
 
 //Suma parnih prirodnih brojeva od 10 d0 20
 let suma = 0;
-for (i = 10; i <= 20; i++) {
-  if (i % 2 !== 0) {
+for (i = 10; i < 21; i++) {
+  if (i % 2 === 0) {
     suma += i;
   }
 }

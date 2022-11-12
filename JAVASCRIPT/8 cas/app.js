@@ -25,14 +25,13 @@ for (let i = 99; i >= -99; i--) {
     console.log(i + 14);
   }
 }
-
-let iterator = 99;
-while (iterator > -100) {
-  if (iterator % 4 === 0) {
-    console.log(iterator + 14);
-  }
-  iterator--;
-}
+// 2. nacin
+// let iterator = 99;
+// while (iterator > -100) {
+//   if (iterator % 4 === 0) {
+//     console.log(iterator + 14);
+//   }
+//   iterator--;
 
 // Izracunati aritmeticku sredinu brojeva koji su deljivi sa 3.
 // Iteracija se vrsi od 3 do 17.

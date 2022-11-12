@@ -18,8 +18,7 @@ alert("zdravo");
 //3. _
 
 //Broj moze biti sadrzan u nazivu neke promenjve
-// ALI PROMENJIVA NE SME PICNJTI BROJEM
-
+// ALI PROMENJIVA NE SME PICNJTI BROJE
 // prom1= "neki string"
 // 2prom1= "neki string"
 

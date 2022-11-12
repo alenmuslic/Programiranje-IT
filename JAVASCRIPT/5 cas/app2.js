@@ -2,7 +2,7 @@
 // if (uslov1) {
 //   //kod za izvrsavanje u slucaju ispunjenju prvog uslova
 // } else if (uslov2) {
-//   //kod za izvrsavanje u slucaju ispunjenje drugog uslova
+//kod za izvrsavanje u slucaju ispunjenje drugog uslova
 // } else {
 //   //kod za izvrsavanje u slucaju ne zadovoljavanja svih ostalih uslova
 // }
