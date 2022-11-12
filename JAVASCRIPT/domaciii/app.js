@@ -130,12 +130,36 @@
 // 2.Korisnik unosi dva realna broja x i y.Napi sati program koji izracunaca i s kolicnik x/y ako je broj razlicit od 0.
 //a inace ispisuje poruku:Deljenje nije moguce
 
-let x = +prompt("Unesite duzinu x");
-console.log("x");
-let y = +prompt("Unesite duzinu y");
-console.log(y);
-if (x >= y || (x !== 0 && y !== 0)) {
-  console.log(x / y);
+// let x = +prompt("Unesite duzinu x");
+// console.log("x");
+// let y = +prompt("Unesite duzinu y");
+// console.log(y);
+// if (x >= y || (x !== 0 && y !== 0)) {
+//   console.log(x / y);
+// } else {
+//   console.log("Deljenje nije moguc");
+// }
+
+// Задатак: Фудбалски терен
+// Фудбалски терен димензија d×s треба оградити правоугаоном оградом тако да је растојање страница ограде
+// од линије терена r. Напиши програм који одређује дужину ограде.
+// Улаз: У три реда стандардног улаза налазе се три цела броја:
+// • d - дужина терена у метрима (90 ≤ d ≤ 120)
+// • s - ширина терена у метрима (45 ≤ s ≤ 90)
+// • r - растојање ограде од терена у метрима (2 ≤ r ≤ 10)
+
+const duzina = +prompt("Unesite duzinu terena");
+const sirina = +prompt("Unesite sirinu terena");
+const rastojanje = +prompt("Unesite rastojanje ivica terena");
+
+if (isNaN(duzina) || isNaN(sirina) || isNaN(rastojanje)) {
+  console.log("Unesite broj!!");
+} else if (duzina < 90 || duzina > 120) {
+  console.log("Duzina mora biti izmedju 90 i 120 ");
+} else if (sirina < 45 || sirina > 90) {
+  console.log("Sirina mora biti izmedju 45 i 90");
 } else {
-  console.log("Deljenje nije moguc");
+  const obimTerena = 2 * duzina + 2 * sirina;
+  const obimOgrade = obimTerena + 8 * rastojanje;
+  console.log("Potrebno je" + obimOgrade + "m za ogradjivanje terena.");
 }
