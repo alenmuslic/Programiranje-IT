@@ -1,0 +1,88 @@
+<html>
+<link rel="stylesheet" href="./style.css">
+  <head>
+    <div class="kontejner">
+    <title>Digitron</title>
+    <script language="JavaScript">
+      function izracunaj(operacija) {
+        var broj1 = parseInt(document.racunaljka.br1.value);
+        var broj2 = parseInt(document.racunaljka.br2.value);
+        var rezultat = 0;
+    
+
+        if (isNaN(broj1) == false && isNaN(broj2) == false) {
+          switch (operacija) {
+            case 1:
+              rezultat = broj1 + broj2;
+              break;
+            case 2:
+              rezultat = broj1 - broj2;
+              break;
+            case 3:
+              rezultat = broj1 * broj2;
+              break;
+            case 4:
+              rezultat = broj1 / broj2;
+              break;
+          }
+
+          document.racunaljka.rez.value = rezultat;
+        } else {
+          alert("Digitron radi samo sa brojevima");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 align="center">D I G I T R O N</h1>
+    <table border="0" align="center">
+      <form name="racunaljka" action="" method="">
+        <tr>
+          <td>Unestite prvi broj:</td>
+          <td><input type="text" name="br1" value="" /></td>
+        </tr>
+        <tr>
+          <td>Unesite drugi broj:</td>
+          <td><input type="text" name="br2" value="" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input
+              type="button"
+              name="saberi"
+              value=" + "
+              onClick="izracunaj(1);"
+            />
+            <input
+              type="button"
+              name="oduzmi"
+              value=" - "
+              onClick="izracunaj(2);"
+            />
+            <input
+              type="button"
+              name="pomnozi"
+              value=  " * "
+              onClick="izracunaj(3);"
+            />
+            <input
+              type="button"
+              name="podeli"
+              value=" / "
+              onClick="izracunaj(4);"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            Rezultat :
+            <input type="text" name="rez" value="" readonly="readonly" />
+          </td>
+        </tr>
+      </form>
+    </table>
+    </div>
+    <div class="povrsina"></div>
+  </body>
+</html>
