@@ -1,24 +1,55 @@
-// STRINGOVI
-// STRINGOVI SU IMMUTABLE VRENOSTI (nepromenjive)
-// Sto znaci da ako hovcemo neki slican string da dobijemo moramo napraviti novi.
+// STRINGOVI //
+// Stringovi su immutable vrednosti (nepromenljive).
+// Sto znaci da ako hocemo neki slican string da dobijemo moramo napraviti novi.
 
-//METODE // (funkcije koje primenjujemo za datu pr0menjivu)
-// length se koristi za dobijanje duzine stringa
-
+// Metode (funkcije koje primenjujemo za datu promenljivu) //
+// length metoda nam sluzi za dobijanje duzine stringa.
 const recenica = "Kamerun dobijamo!";
-console.log(recenca.length);
+console.log(recenica.length);
 
-// Pristupanje odredjeno karakteru ide preko indeksa
-// Indiksiranje ide od 0  do (ukupne duzine stringa)
-console.loh(recenica[6]);
+// Pristupanje odredjenom karakteru ide preko indeksa.
+// Indeksiranje ide od 0 do (ukupna duzina stringa - 1)
+console.log(recenica[6]);
 
-// KORISCENJEM BACKSLASH kraktera
-//  stringG zapisujemo na 3 naci a
+// Koriscenje \ (backslash) karaktera.
+
+// String zapisujemo na 3 nacina:
 // 1. " "
-const string1 = "Danas je bilo lepo vreme";
-//2. ' '
-const string2 = "Danas je bilo lepo vreme";
+// Rec koja treba da se nadje pod navodnicima more biti pod obicnim navodnicima
+// ako je string okruzen duplim navodnicima ili obrnuto.
+const string1 = "Danas je bilo 'lepo' vreme.";
+// const string1 = 'Danas je bilo "lepo" vreme.'
+// \:
+const string4 = 'Danas je bilo "lepo" vreme.';
+console.log(string4);
+// 2. ' '
+const string2 = "Danas je bilo lepo vreme.";
 // 3. ` `
-const string3 = ` Danas je bilo lepo vremE`;
+const string3 = `Danas je bilo lepo vreme.`;
 
-// Postoje 3 metode za ekstraktovanje
+// \ na kreju reda:
+const string5 =
+  "Ovo ce da bude jedan dugacki string. \
+Cela poenta je da prikazemo jedan te isti string u vise redova.";
+console.log(string5);
+// sa \ ne mozemo nastaviti liniju koda, vec samo string
+// \n prikazivanje stringa:
+const string6 =
+  "Ovo ce da bude jedan dugacki string. \nCela poenta je da prikazemo \njedan te isti string u vise redova.";
+console.log(string6);
+
+// Postoje 3 metode za ekstraktovanje (uzimanje dela stringa) stringa:
+// 1. slice(start, end) end nije ukljucen u opseg.
+// 2. substring(start, end) razlika u odnosu na slice je da substring ne
+// prihvata negativne indekse.
+// 3. substr(start, length)
+
+// Racunanje ide od 0.
+
+const string7 = "Danas je bilo lepo vreme.";
+console.log(string7.slice(0, 5));
+console.log(string7.slice(-6, -1));
+
+console.log(string7.substring(0, 5));
+// substring ne dozvoljava negativne brojve
+console.log(string7.substr(0, 8));
