@@ -19,4 +19,8 @@ console.log(podString("Recenica kojoj cemo uzeti nekoliko karaktera", 5, 9));
 
 // 3. Unosi se string A i znak Z.Kreirati novi string B koji se dovija ako sto se iz unetog stringa izbacuje svaka pojava znaka Z.Npr za unet string madagaskar i znak adovijamo resulat mdgskr
 
-function izbacivanje(recenica) {}
+const bezZnaka = (string, znak) => {
+  let noviString = string.replace(znak, "");
+  return noviString;
+};
+console.log(bezZnaka("Madagaskar", "a"));
