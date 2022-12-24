@@ -59,3 +59,14 @@ const najveciBroj = function (prvi, drugi, treci) {
 
 console.log(najveciBroj(1, 2, 3));
 console.log(najveciBroj(-1, -2, -3));
+
+<html>
+  <head>
+    <title>Ovo je naslov</title>
+  </head>
+  <body>
+    <h1>Ovo je header velicine h1</h1>
+    <p>Ovo je paragraf</p>
+    <a href="https://www.gimnazijanp.edu.rs/">Ovo je sajt Gimnazije</a>
+  </body>
+</html>;
