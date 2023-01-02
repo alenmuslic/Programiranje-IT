@@ -4,7 +4,7 @@ var x; //Obezbedjivanje promenjive x (Obezbedjivanje lokacije memorije za promen
 var x = 15; //Inicijalizacija promenjive x (Dodela vrednosti vec deklarisanje promenjivoj x)
 console.log(x);
 
-//Redeklarisanje promenjive x definisane putem ar keyword je dozvoljeno , bilo gde u prostoru.
+//Redeklarisanje promenjive x definisane putem var keyword je dozvoljeno , bilo gde u prostoru.
 var x;
 //Reinalizacija proenjive x ddefinisane putem car keyword je dozbvoljeno bilo gde u prostoru .
 x = 22;
