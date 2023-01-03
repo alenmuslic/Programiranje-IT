@@ -5,7 +5,7 @@
 
 // Perlja(LOOP) predstwavlja nacin da se neki kod ispise uz odredjene uslove vise puta
 
-// for pelja - sintaksa
+// for pelja - sintaksaa
 
 // for (statement1; statement2; statement3) {
 // kod za izvrsavanje u svakoj interaciji
