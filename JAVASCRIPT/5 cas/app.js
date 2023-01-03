@@ -3,7 +3,6 @@
 
 const ime = prompt("Unesite vase ime:");
 console.log(ime);
-
 const godine = prompt("unesite godine:");
 console.log(godine);
 console.log(typeof godine);

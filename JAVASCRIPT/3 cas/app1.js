@@ -120,7 +120,7 @@ console.log(a >= b);
 // 4.8  >=  da li je prva manja  veca ili jednaka drugoj
 console.log(a <= b);
 
-//4.9 ? terarni perator
+//4.9 ? terarni operator
 //uslov ?  (radnja koja se izvrsava ako je uslov zadovoljen )
 // : // (radnja koja se izvrsava ako je uslov zadovoljen )
 //
@@ -140,17 +140,16 @@ let prom3 = -6;
 
 prom1 > 0 && prom2 > 0 && prom3 > 0
   ? console.log("Sve tri promenjive su pozitivni brojevi")
-  : console.log("Nisu Sve tri promenjive su pozitivni brojevi");
+  : console.log("Nisu Sve tri promenjive pozitivni brojevi");
 
 // 5.2 || or (ili) zahteva zadovoljenje  bar jednog od ponudjenih uslova
 
 prom1 > 0 || prom2 > 0 || prom3 > 0
   ? console.log("Nasli smo bar jednu promenivu od nule")
-  : console.log(" Sve tri su promenjive i manji od nule ");
+  : console.log(" Sve tri su promenjive su manji od nule ");
 
 // 5.3 ! not (not) (okrece vrednost => true u false i obrnuto)
 console.log(!Boolean(prviDeo + "" + drugiDeo));
-
 // 6 tip ioeratota Type operator
 
 // 6.1 typeof se koristi za ispitivanje tioa idredjene promenjive
