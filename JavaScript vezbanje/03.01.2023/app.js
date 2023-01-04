@@ -115,7 +115,7 @@ console.log(
     suma +
     "."
 );
-
+d;
 // Na osnovu vrednosti koju nam daje izraz iz switch naredbe, kroz case_ove i eventualno default ispisati poruku:
 // "Danas je 'radni dan'"
 // "Ugodno provedite vikend"
