@@ -9,8 +9,8 @@ console.log(a);
 
 // toLowerCase= pretvaraa string u mala slova
 let rec2 = "VELIKI PETAK";
-// console.log(rec1[2]);
-let b = rec2.toLowerCase();
+// console.log(rec2[1]);  iNDEX UVEK POCINJE SA 0
+// let b = rec2.toLowerCase();
 console.log(b);
 
 const recenica0 =
@@ -23,18 +23,18 @@ console.log(primerm);
 // PRIMER:
 // Ispisati nocu recwnicu gde ce svaka rec pocinjati velikim slovom
 
-// const recenica =
-//   "sledece subote cemo imati test koji predstavlja kraj prvog cikusa nakon toga cemo videti ko sve nastavlja sa drugim ciklusom it camp";
-// let novaRecenica = "";
-// for (i = 0; i < recenica.length; i++) {
-//   if (i === 0) {
-//     novaRecenica += recenica[i].toUpperCase();
-//   } else if (recenica[i - 1] === " ") {
-//     novaRecenica += recenica[i].toUpperCase();
-//   } else {
-//     novaRecenica += recenica[i];
-//   }
-// }
-// console.log(novaRecenica);
+const recenica =
+  "sledece subote cemo imati test koji predstavlja kraj prvog cikusa nakon toga cemo videti ko sve nastavlja sa drugim ciklusom it camp";
+let novaRecenica = "";
+for (i = 0; i < recenica.length; i++) {
+  if (i === 0) {
+    novaRecenica += recenica[i].toUpperCase();
+  } else if (recenica[i - 1] === " ") {
+    novaRecenica += recenica[i].toUpperCase();
+  } else {
+    novaRecenica += recenica[i];
+  }
+}
+console.log(novaRecenica);
 
 // Napisati recenicu na kojoj su sva zadnja slova velika
