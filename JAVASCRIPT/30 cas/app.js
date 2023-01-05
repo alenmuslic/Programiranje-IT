@@ -1,79 +1,124 @@
-// Niz predstavlja strukturu oidatka koja moze vise od jedne vrednosti
+// Niz predstavlja strukturu podataka koja moze sadrzati vise od jedne vrednosti.
 
-//Nizovi u JavaScript su heterogeni (mogu sadrzato elemente razlicitih tipova)
+// Nizovi u JavaScriptu su heterogeni (mogu sadrzati elemente razlicitih tipova).
 
 const niz = ["Mitar", "Vranic", 20, true];
 console.log(niz);
 
-//Mozemo prvo kreirati  prazan niz pa nakon toa dodavati rucno elemente
+// Dozvoljeno je, cesto i prakticnije pisati svaki element niza u novom redu.
+// const niz = [
+//     "Mitar",
+//     "Vranic",
+//     20,
+//     true
+//     ];
 
-const automobil = [];
-automobil[0] = "audi";
-console.log(automobil);
-automobil[1] = "polo";
-console.log(automobil);
+// Mozemo prvo kreirati prazan niz, pa nakon toga dodavati rucno elemente.
 
-automobil[5] = "hatidza";
-console.log(automobil);
-automobil[3] = "mahmutovic";
-console.log(automobil);
-automobil[100] = "alen";
-console.log(automobil);
-automobil[5] = "a";
-console.log(automobil);
+const automobili = [];
+automobili[0] = "Audi";
+console.log(automobili);
+automobili[1] = "Passat";
+automobili[1] = "Audi";
 
-//niz mozemo definisati preko new keyword
-const niz2 = new Array("Alen", "Hasan", "Hatidza", "Omar");
+automobili[5] = "Golf";
+console.log(automobili);
+console.log(automobili[3]);
+
+// Istu sintaksu mozemo iskoristiti za promenu vrednosti elementa.
+automobili[0] = "Mercedes";
+console.log(automobili);
+
+// Niz mozemo definisati preko new keyword:
+
+const niz2 = new Array("Hasan", "Omar", "Emin");
 console.log(niz2);
 
-//Radi jednostavnosti citljivosti koda i brzine izvrsavanja je olje koristiti [] nego new
+// Radi jednostavnosti, citljivosti koda i brzine izvrsavanja je bolje koristiti [] nego new.
 
 const niz3 = [40];
 console.log(niz3);
-//new Array nam uzima 40 praznih striingova
+// new Array ce napraviti niz od 40 praznih mesta.
 const niz4 = new Array(40);
 console.log(niz4);
 
-//Pristupanje elementima se vrsi preko indexa"
-console.log(automobil[1]);
+// Pristupanje elementima se vrsi preko indeksa:
+console.log(automobili[1]);
 
-//postoje 2 nacina za proveravanje
-console.log(typeof automobil);
+// Postoje 2 nacina za ispitivanje dsa li je neka promenljiva niz:
+console.log(typeof automobili);
 
-//1.Array.isArray(PotencijalnoNiz)
+// 1. Array.isArray(potencijalnoNiz)
+console.log(Array.isArray(automobili));
 console.log(Array.isArray("neki string"));
 
-// 2.isstanceof Array
+// 2. potencijalnoNiz instanceof Array
+console.log(automobili instanceof Array);
 console.log(25 instanceof Array);
 
-console.log(automobil.length);
+// Elementi niza mogu biti bilo koje vrednosti:
+// Date, Array, Boolean, Function, Number,....
 
-//  za dodavsnje elemenata na kraju niza koristi se ush metoda
+// Za proveru duzine niza koristimo length:
+console.log(automobili.length);
 
-const dani = ["ponedelja", "utorak", "sreda", "cetvrtak", "petak", "subota"];
-dani.push("nedelja");
+// Za dodavanje elementa na kraju niza se koristi push() metoda.
+
+const dani = ["ponedeljak", "utorak"];
+dani.push("sreda");
 console.log(dani);
-//push metoda nam omogucava dodavanje vise od jednog lemeta na kraju niza
-//danipush(...)
+// push() metoda nam omogucava dodavanje vise od jednog elementa na kraju niza.
+// dani.push(...) varaca novu duzinu niza.
+console.log(dani.push("cetvrtak", "petak"));
+console.log(dani);
+
+// da li neko ima ideju kako da dodamo element na poslednjem mestu u nizu ako ne znamo duzinu niza i ako ne koristimo push() metodu?
 
 dani[dani.length] = "subota";
 console.log(dani);
 
-// za pretvaranje niza u strig mozemo iskrostiti za 2 metode
-const daniS = dani.toString();
-console.log(daniS);
+// Nizovi su zapravo vrsta objekata koji imaju brojevne indekse.
 
-const noviNiz = daniS.split(",");
+// Za pretvaranje niza u string mozemo iskoristiti 2 metode:
+// 1. toString()
+// 2. join()
+
+// 1.
+const daniStr = dani.toString();
+console.log(daniStr);
+console.log(typeof daniStr);
+// Obrnuti postupak:
+const noviNiz = daniStr.split(",");
 console.log(noviNiz);
 
 // 2.
-const daniS2 = dani.join();
-console.log(daniS2);
-console.log(typeof daniS);
+// Klasicni primer:
+const daniStr2 = dani.join();
+console.log(daniStr2);
+console.log(typeof daniStr2);
+// Dobijanje stringa i stavljanje nekog znaka izmednju elemenata niza koji smo pretvorili u string.
+const daniStr3 = dani.join("*");
+console.log(daniStr3);
 
-//Dobijanje strifa i stavljanje nekog znaka izmednju elementa niza koji smo pretvorili u string
+// pop() metoda brise poslednji element iz niza.
 
-// niz.pop( vraca vrednost izbrisanog elementa])
+// dani.pop() varaca vrednost izbrisanog elementa.
 const subota = dani.pop();
-console.log(subota);
 console.log(dani);
+console.log(subota);
+
+// Iz datog niza ispitati koliko elemenata je tipa string,
+// koliko tipa number,
+// koliko tipa boolean,
+// koliko elemenata je zapravo niz?
+const nizz = [
+  "jagoda",
+  25,
+  true,
+  "mandarina",
+  [1, 2, 3],
+  "ananas",
+  49,
+  694,
+  "tresnja",
+];
