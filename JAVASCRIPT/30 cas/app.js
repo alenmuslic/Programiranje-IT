@@ -19,7 +19,7 @@ const automobili = [];
 automobili[0] = "Audi";
 console.log(automobili);
 automobili[1] = "Passat";
-automobili[1] = "Audi";
+automobili[2] = "Audi";
 
 automobili[5] = "Golf";
 console.log(automobili);
