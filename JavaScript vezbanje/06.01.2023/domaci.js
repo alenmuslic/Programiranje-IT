@@ -1,3 +1,15 @@
+// Iz nekog niza izdvojiti sve parne brojeve
+function funkcija(niz) {
+  let novi = [];
+  for (i = 0; i < niz.length; i++) {
+    if (niz[i] % 2 === 0) {
+      novi.push(niz[i]);
+    }
+  }
+  return novi;
+}
+console.log(funkcija(["0", "2", "3", "4", "222"]));
+
 // Iz datog niza ispitati koliko elemenata je tipa string,
 // koliko tipa number,
 // koliko tipa boolean,
