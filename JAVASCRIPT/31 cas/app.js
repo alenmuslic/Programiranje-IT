@@ -1,4 +1,4 @@
-// / unshift() metoda dodaje na pocetku niza jedan ili vise elemenata.
+//  unshift() metoda dodaje na pocetku niza jedan ili vise elemenata.
 // unshift() prikazuje novu duzinu niza.
 
 const niz = ["cetvrtak", "petak", "subota"];
@@ -85,6 +85,5 @@ console.log(pozitivni([-5, -7, 0, 3, 6, -6, 4, 10]));
 function isEven(num) {
   return num % 2 === 0;
 }
-
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const evenNumbers = numbers.filter(isEven);
