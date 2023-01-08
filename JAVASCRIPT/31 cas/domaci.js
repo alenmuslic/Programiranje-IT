@@ -34,5 +34,4 @@ function types(niz) {
    \n ${numberTipa} brojeva, \n ${booleanTipa} booleana,
    \n ${nizTipa} nizova.`;
 }
-
 console.log(types(nizz));
