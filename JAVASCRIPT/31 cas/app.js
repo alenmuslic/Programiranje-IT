@@ -15,7 +15,7 @@ console.log(niz);
 console.log(niz.shift());
 console.log(niz);
 
-// delete keyword za prisanje odredjenog elementa unutar niza:
+// delete keyword za brisanje odredjenog elementa unutar niza:
 // Preko delete keyword mozemo izbrisati bilo koji element iz niza ali na taj nacin ostavljamo rupe u nizu (undefined vrednosti).
 
 console.log(niz.length);
@@ -55,8 +55,10 @@ console.log(podeliNiz(grupa));
 
 const neparnePozicije = (niz) => {
   const neparni = [];
-  for (let i = 0; i < niz.length; i += 2) {
-    neparni.push(niz[i]);
+  for (let i = 0; i < niz.length; i = i + 2) {
+    if (niz % 0 !== 0) {
+      neparni.push(niz[i]);
+    }
   }
   return neparni;
 };
@@ -80,10 +82,15 @@ function pozitivni(niz) {
   return pozitivni;
 }
 console.log(pozitivni([-5, -7, 0, 3, 6, -6, 4, 10]));
-// Iz nekog niza izdvojiti sve parne brojeve
 
-function isEven(num) {
-  return num % 2 === 0;
-}
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const evenNumbers = numbers.filter(isEven);
+// Iz nekog niza izdvojiti sve parne brojeve
+const parnibr = (niz) => {
+  const parni = [];
+  for (let broj of niz) {
+    if (broj % 2 === 0) {
+      parni.unshift(broj);
+    }
+  }
+  return parni;
+};
+console.log(parnibr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]));
