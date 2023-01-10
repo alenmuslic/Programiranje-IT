@@ -32,3 +32,45 @@ console.log(hatidza);
 //lastIndexOf() metoda vraca poziciju poslednjeg elementa koji predstavlja argument date metode
 //lastIndexOf() metoda vraca -1 ako se neki element ne nalazi u nizu.
 //Kada imamo 2 ista element u nizu indexOf ce nam dati prvi broj
+
+//METODA
+// Array.from()  nam vraca niz koi se pravi od nekog objka koji ima length
+const noviNiz = Array.from("SVAKO SLOVO CE BITI POSEBAN ELEMENT NIZA");
+console.log(noviNiz);
+
+//includes metoda nam vraca boolean u zabisnosti od toga da li se argumen nalazi u nizu
+
+console.log(niz.includes("Emin"));
+
+//keys() metoda vraca Array Iterator Object sa kljucevima(indeksima) nekog niza.
+const indeksi = niz.keys();
+console.log(indeksi);
+
+for (let index of indeksi) {
+  console.log(index);
+}
+
+// entries() metoda vraca
+
+//   function niz(array, n) {
+//     if (array == null)
+//     return  [0];
+//   if (n == null)
+//     return[0];
+//   if (n < 0)
+//     return [];
+//   return array.slice(0, n);
+// };
+
+// console.log(niz([7, 9, 0, -2]));
+
+const getElements = (niz, n = undefined) => {
+  if (n > niz.length) {
+    return niz;
+  } else if (n === undefined) {
+    return niz[0];
+  } else {
+    return niz.slice(0, n);
+  }
+};
+console.log(getElements[(1, 4, 5, -3, 0, 6, 14)]);
