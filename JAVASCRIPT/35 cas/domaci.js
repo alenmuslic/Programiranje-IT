@@ -4,7 +4,7 @@
 
 const niz = ["Ova recenica ce biti ispisana velikim slovima"];
 function velika(niz) {
-  const velika = niz.map((Alen) => Alen.toUpperCase());
+  const velika = niz.map((niz) => niz.toUpperCase());
   return velika;
 }
 console.log(velika(niz));
@@ -27,16 +27,59 @@ console.log(treci(niz));
 
 //4.// Napraviti novi niz koji ce sve negativne brojeve pomnoziti sa (-1), a pozitivne kvadrirati.
 
-const brojevi1 = [-5, 4, 3, 10, 14, -5];
-function brojevi2(negativniPozivivni) {
-  const nekiNiz = [];
-  for (let i of brojevi) {
-    if (i < 0) {
-      noviNiz.push(Math.abs(i));
-    } else if (i > 0) {
-      noviNiz.push(Math.pow(i, 2));
-    }
+// const brojevi1 = [-5, 4, 3, 10, 14, -5];
+// function brojevi2(negativniPozivivni) {
+//   const nekiNiz = [];
+//   for (let i of brojevi) {
+//     if (i < 0) {
+//       noviNiz.push(Math.abs(i));
+//     } else if (i > 0) {
+//       noviNiz.push(Math.pow(i, 2));
+//     }
+//   }
+//   return noviNiz;
+// }
+// console.log(brojevi2(negativniPozivivni));
+
+
+
+const kvadriranje = (broj) => {
+   if (broj < 0) {
+    return -broj;
+  }  
+  else  {
+    return broj ** 2;
   }
-  return noviNiz;
+
+};
+const brojevi1 = [-5, 4, 3, 10, 14, -5];
+const brojevi2 = brojevi1.map(kvadriranje);
+console.log(brojevi2);
+
+// Napraviti funkciju koja pravi novi niz gde ce se pozitivni elementi kvadrirati,negativni pomnoziti sa (-1) a ako se neki element ponavlja vise pta u originalnom nizu,na svako sledee pojavljivanje ce se u novo nizu dodati element "ovo je duplikat"
+
+
+//kvadratirati one brojeve koje imaju index 0,3,5
+const brojevi15=[1,2,4,-6,8,3,6,8]
+const brojevi3=brojevi15.map(element,index) =>{
+if (index===0 || index===5 || index===5){
+return element**2;
 }
-console.log(brojevi2(negativniPozivivni));
+else {
+    return element 
+}
+
+};
+console.log(brojevi3)
+
+
+//
+
+
+    
+
+
+
+
+
+
