@@ -1,0 +1,13 @@
+.main {
+  margin: 15px;
+  width: 400px;
+  height: 600px;
+  background-color: hsl(43, 74%, 49%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.main img {
+  height: 200px;
+  width: 400px;
+}
