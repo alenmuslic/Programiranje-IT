@@ -1,25 +1,34 @@
-//objekti su gkavba stvar u JavaScriptu
-//objekti su promenjive koje sadrze vise vrednosti.
-//predstavljaju se u key:value parovima
+// Objekti su glavna stvar u JavaScript_u.
+
+// const niz = ["Amer", "Bakir", "Aladin"]
+//              0        1        2
+
+// Objekti su promenljive koje sadrze vise vrednosti.
+// Predstavljaju se u key:value parovima.
 
 const person = {
-  fistName: "Nikola",
+  firstName: "Nikola",
   lastName: "Bozovic",
   age: 18,
   adult: true,
 };
+
 console.log(person);
-//Pristupanjem odjredjeni objektima mozemo izvrsiti na 2 nacina
-//1.ObjectName.promepryName(person.firstName)
+// Pristupanje odredjenim vrednostima objekta mozemo izvrsiti na 2 nacina:
+// Jedan key:value par se property (svojstvo).
 
-//2.ObjectName["promepryName"]
-//  (person["firstName"])
-console.log(person.lastName);
+// 1. objectName.propertyName (person.firstName)
 
-//Object methods
-//Objeki takodje mogu imati metoda
-//Metode su funkcije koje ce se izvrsiti na objektu
-//Metode su skladistene u svojstvima kao definicije funkcije
+// 2. objectName["propertyName"]          (person["firstName"])
+
+console.log(person.firstName);
+const punoletnost = person.adult === true ? "jeste" : "nije";
+console.log(`${person["firstName"]} ${punoletnost} punoletan.`);
+
+// Object Methods //
+// Objekti takodje mogu imati metode.
+// Metode su funkcije koje ce se izvrsiti na objektu.
+// Metode su skladistene u svojstvima kao definicije funkcija.
 
 const person2 = {
   firstName: "Alen",
@@ -32,7 +41,32 @@ const person2 = {
 };
 console.log(person2.fullName());
 
-//u JS this je keyword(rezervisana rec) koja ukazuje na neki objekat
-//this nije promenjiv i ne mozemo promeniti vrednost
-//this ukazuje na razlicit objekat u zavosnosti od toga gde se koristi
-//u nekom objektu this ukazuje na taj objekat
+// u JavaScriptu this je keyword (rezervisana rec) koja ukazuje na neki objekat.
+// this nije promenljiva i ne mozemo promeniti vrednost this.
+
+// this ukazuje na razlicit objekat u zavisnosti od toga gde se koristi.
+
+// * U nekom objektu this ukazuje na taj objekat;
+//  * U global scope this ukazuje na global object.
+
+// Domaci:
+// Napraviti objekat student koji ce da ima vrednosti (po zelji), svojstava:
+// ime, prezime, broj indeksa, ocene (niz svih ocena koje student ima u
+// trenutnoj godini), prosekOcena (funckija koja na osnovu ocene vraca prosek
+// datih ocena).
+
+// Zad.
+// Write a JavaScript program which returns a subset of a string. Go to the editor
+// Sample Data: dog
+// Expected Output: ["d", "do", "dog", "o", "og", "g"]
+
+const subStr = (str) => {
+  const subStrArr = [];
+  for (let i = 0; i < str.length; i++) {
+    for (let k = i; k < str.length; k++) {
+      subStrArr.push(str.slice(i, k + 1));
+    }
+  }
+  return subStrArr;
+};
+console.log(subStr("dog"));
