@@ -18,3 +18,14 @@ const subStr = (str) => {
   return subStrArr;
 };
 console.log(subStr("dog"));
+
+const student = {
+  ime: "alen",
+  prezime: "muslic",
+  broj_indeksa: 00213120,
+  ocene: [10, 10, 9, 10, 9, 10, 10, 10, 9],
+  prosek_ocena: function () {
+    const suma = student.ocene.reduce((a, b) => a + b);
+    return +(suma / student.ocene.length).toFixed(2);
+  },
+};
