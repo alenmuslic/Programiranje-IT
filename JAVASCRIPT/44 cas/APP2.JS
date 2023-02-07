@@ -6,7 +6,7 @@ function User(firstName, lastName, score) {
   this.score = score;
 }
 
-const nikola = new User("Nikola", "Bozovic", 4);
+const nikola = new User("Uros", "Andjelkovic", 69);
 console.log(nikola);
 
 // Svi objekti u JavaScriptu su povezani sa nekim Prototype Objektom. Tako da mozemo reci da svaki objekat ima Prototype.
