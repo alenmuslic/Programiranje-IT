@@ -20,8 +20,7 @@ console.log(omar.length);
 // Kod ovakvih zadataka iterator predstavlja index pomocu kojeg pristupamo karakteru stringa.
 
 recenica = "Danas cemo raditi neke operacije sa stringovima.";
-const duzina = recenica.length;
-for (let i = 0; i < duzina; i++) {
+for (let i = 0; i < recenica.length; i++) {
   console.log(recenica[i]);
 }
 

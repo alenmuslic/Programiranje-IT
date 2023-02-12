@@ -8,7 +8,7 @@ const recenica = "Danas smo podelili sertifikate za HTML, CSS i JavaScript.";
 // 1. g (global)
 recenica2 = recenica.replace(/s/g, "t");
 console.log(recenica2);
-// 1. i (insensitive)
+// 1. i (insensitive)fgv b
 recenica2 = recenica.replace(/s/i, "A");
 console.log(recenica2);
 recenica2 = recenica.replace(/s/gi, "A");
