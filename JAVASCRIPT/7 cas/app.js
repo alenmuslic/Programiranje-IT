@@ -7,7 +7,7 @@
 // }
 
 // Ispisati sve brojeve od 1 do 10 koji su parni
-// let i = 0;
+// let i = 1;
 // while (i < 11) {
 //   if (i % 2 === 0) {
 //     console.log(i);
