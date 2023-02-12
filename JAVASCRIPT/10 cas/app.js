@@ -1,32 +1,36 @@
-// Stringovi su immutble promenjie, nijem moguce vrsiti modifikacija  postojeceg stringa .
-//Alternativa je da  naoravimo novi string  i da  tada je moguce dodavati vrednost kad god zelimo
+// Stringovi su immutable promenljive, nije moguce vrsiti modifikaciju postojeceg stringa.
+// Alternativa je da napravimo novi string i tada je moguce dodavati vrednosti kad god zelimo.
 
 let rec1 = "Petak";
-// console.log(rec1[2]);
-// toUppeCase () - metoda koja pretvara ceo string u velika slova
-let a = rec1.toUpperCase();
-console.log(a);
+console.log(rec1[2]);
 
-// toLowerCase= pretvaraa string u mala slova
-let rec2 = "VELIKI PETAK";
-// console.log(rec2[1]);  iNDEX UVEK POCINJE SA 0
-// let b = rec2.toLowerCase();
-console.log(b);
+// toUpperCase() - metoda koja pretvara ceo string u velika slova.
+
+let PETAK = rec1.toUpperCase();
+
+console.log(PETAK);
+
+// toLowerCase() - metoda koja pretvara ceo string u mala slova.
+
+let petak = PETAK.toLowerCase();
+console.log(petak);
 
 const recenica0 =
-  "Zelim DaTu ReCenIcU PriKazAti MalIm,IstO takO i VELIkIm slOvima.";
-let primerv = recenica0.toUpperCase();
-let primerm = recenica0.toLowerCase();
-console.log(primerv);
-console.log(primerm);
-
-// PRIMER:
-// Ispisati nocu recwnicu gde ce svaka rec pocinjati velikim slovom
+  "Zelimo DATu reCENIcu priakzaTI MALIM, isto taKO i VELIkim slovima.";
+const recenica01 = recenica0.toLowerCase();
+const recenica02 = recenica0.toUpperCase();
+console.log(
+  "Recenica ispisana malim slovima ce biti: \n" +
+    recenica01 +
+    "Dok ce recenica ispisana velikim slovima biti: \n" +
+    recenica02
+);
 
 const recenica =
-  "sledece subote cemo imati test koji predstavlja kraj prvog cikusa nakon toga cemo videti ko sve nastavlja sa drugim ciklusom it camp";
+  "sledece subote cemo imati test, koji predstavlja kraj prvog ciklusa. nakon toga cemo videti ko sve nastavlja sa 2. ciklusom it campa";
+// Ispisati novu recenicu gde ce svaka rec pocinjati velikim slovom.
 let novaRecenica = "";
-for (i = 0; i < recenica.length; i++) {
+for (let i = 0; i < recenica.length; i++) {
   if (i === 0) {
     novaRecenica += recenica[i].toUpperCase();
   } else if (recenica[i - 1] === " ") {
@@ -35,6 +39,27 @@ for (i = 0; i < recenica.length; i++) {
     novaRecenica += recenica[i];
   }
 }
+console.log(recenica);
 console.log(novaRecenica);
 
-// Napisati recenicu na kojoj su sva zadnja slova velika
+// Ispisati novu recenicu gde ce svaka rec zavrsavati velikim slovom.
+let novaRecenica2 = "";
+for (let i = 0; i < recenica.length; i++) {
+  if (
+    i === recenica.length - 1 ||
+    recenica[i + 1] === "." ||
+    recenica[i + 1] === ","
+  ) {
+    novaRecenica2 += recenica[i].toUpperCase();
+  } else if (recenica[i + 1] === " ") {
+    novaRecenica2 += recenica[i].toUpperCase();
+  } else {
+    novaRecenica2 += recenica[i];
+  }
+}
+console.log(novaRecenica2);
+
+// Domaci zadatak.
+// 1.	Prebrojati koliko se puta u unetom stringu pojavljuje slovo "M" (i veliko i malo). Npr. za string 'Mama ima momu', dobija se rezultat 5.
+
+// 2.	Prebrojati koliko ima znakova koji su cifre u unetom stringu.

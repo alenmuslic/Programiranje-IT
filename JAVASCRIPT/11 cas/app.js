@@ -1,9 +1,9 @@
+// 2.	Prebrojati koliko ima znakova koji su cifre u unetom stringu.
 //  Napraviti novu recenicu koja ce imati isti tekst, ali bez razmaka.
 
 let recenica = "Omare jesi li spremio test?";
 const duzina = recenica.length;
 let novaRecenica = "";
-
 for (let i = 0; i < duzina; i++) {
   if (recenica[i] !== " ") {
     novaRecenica += recenica[i];
