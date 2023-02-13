@@ -11,11 +11,6 @@
 const domaci = () => {
   const recenica = prompt("Unesite neku recenicu: ");
   let polaDuzine;
-  //   if (recenica.length % 2 === 0) {
-  //     polaDuzine = recenica.length / 2;
-  //   } else {
-  //     polaDuzine = Math.round(recenica.length / 2);
-  //   }
   polaDuzine =
     recenica.length % 2 === 0
       ? recenica.length / 2
