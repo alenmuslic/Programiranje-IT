@@ -18,21 +18,15 @@ const recenica4 =
 const nizz = recenica4.split("decembar");
 console.log(nizz);
 
-
-
 //  search metode :
 // indexOf() metoda nam vraca poziciju gde nam zapravo pocinje poslati atgument (1 uli vise) kada se rai o neko, strigu
 
 // const pozicija= recenica2.indexOf(
-    
-    
+
 //     )
 
-const funkcija= function (rec){
-    const recenica2= "diamfoasifjasofisaj ko saoidandaso osvaja ko osvaja"
-const pozicija = recenica2.indexOf("Ko osvaja")
-const pozicija2 = recenica2.lastIndexOf("Ko osvaja)
-
-
-} 
-      
+const funkcija = function (rec) {
+  const recenica2 = "diamfoasifjasofisaj ko saoidandaso osvaja ko osvaja";
+  const pozicija = recenica2.indexOf("Ko osvaja");
+  const pozicija2 = recenica2.lastIndexOf("Ko osvaja");
+};
