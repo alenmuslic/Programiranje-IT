@@ -6,6 +6,7 @@
 // 2. substring(start, end) razlika u odnosu na slice je da substring ne
 // prihvata negativne indekse.
 // 3. substr(start, length)
+// trim() metoda brise razmake sa obe strane stringa.
 // replace() metoda vrsi zamenu nekoliko karaktera datog stringa. Ima 2 argumenta. Po defaultu replace() metoda menja samo prvo pronalazenje datog stringa.
 // concat() metoda vrsi spajanje dva ili vise stringova.
 // Sve string metode prave novu promenljivu (jer su stringovi immutable vrednosti).
