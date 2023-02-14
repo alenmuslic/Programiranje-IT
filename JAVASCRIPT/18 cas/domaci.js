@@ -1,9 +1,3 @@
-let broj = +prompt("Unesite cetborocifreni broj");
-if (isNaN(broj) && broj < 1000 && broj > 10000) {
-  console.log("Morate uneti broj koji je crvorocifren");
-} else {
-}
-
 const sumaCifra = (broj) => {
   if (isNaN(broj) && broj < 1000 && broj > 9999) {
     return "Argument nije korektan";
@@ -12,7 +6,6 @@ const sumaCifra = (broj) => {
     const cifraDesetice = Math.trunc((broj % 100) / 10);
     const cifraStotine = Math.trunc((broj % 1000) / 100);
     const cifraHiljade = Math.trunc((broj % 1000) / 1000);
-
     return cifraJedinice + cifraDesetice + cifraStotine + cifraHiljade;
   }
 };

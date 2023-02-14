@@ -8,6 +8,30 @@
 // 5. Neka bude ispisano prvih 10 karaktera unete recenice,
 // 6. Neka bude ispisano poslednjih 10 karaktera unete recenice.
 
+// const korisnik = (recenica) => {
+//   velika = recenica.toUpperCase();
+//   mala = recenica.toLowerCase();
+//   let polaRecenice =
+//     recenica.length % 2 === 0 ? recenica / 2 : Math.ceil(recenica / 2);
+//   let prvaVelika = recenica.slice(0, polaRecenice).toUpperCase();
+//   let drugaPol = recenica
+//     .substring(polaRecenice, recenica.length)
+//     .toLowerCase();
+//   let prvaDruga = prvaVelika.concat(drugaPol);
+//   let skola = recenica.replace(/skola/gi, "fakultet");
+//   let prvihDeset = recenica.slice(0, 10);
+//   let zadnjihDeset = recenica.slice(-10);
+
+//   return `
+//   ${velika}\n${mala}\n
+//   ${prvaVelika}\n ${drugaPol}\n
+//   ${prvaDruga}\n
+//   ${skola}\n
+//   ${prvihDeset}\n
+//   ${zadnjihDeset}`;
+// };
+// console.log(korisnik("Alen Muslic Hatidza Mahmutovic"));
+
 const korisnik = () => {
   const pisac = prompt("Unesite neku recenicu");
   const velikaSlova = pisac.toUpperCase();
