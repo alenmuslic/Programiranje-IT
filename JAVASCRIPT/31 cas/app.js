@@ -27,13 +27,14 @@ console.log(niz);
 
 const muskarci = ["Mitar", "Tarik", "Dzenan"];
 const devojke = ["Miona", "Merisa", "Hatidza"];
-const grupa = muskarci.concat(devojke, "Mehmed", "Omar");
+const grupa = muskarci.concat(devojke, "Mehmed", "Omar", "Hamza");
 console.log(grupa);
 
 // Iz naseg niza grupa napraviti dva niza muskarci i devojke, s tim sto se Omar ne sme naci nigde.
 const podeliNiz = (niz) => {
   const muskarci = [];
   const devojke = [];
+  let osoba = [];
   for (let osoba of niz) {
     if (osoba === "Omar") {
       continue;

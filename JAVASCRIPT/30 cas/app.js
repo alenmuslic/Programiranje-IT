@@ -24,7 +24,6 @@ automobili[2] = "Audi";
 automobili[5] = "Golf";
 console.log(automobili);
 console.log(automobili[3]);
-
 // Istu sintaksu mozemo iskoristiti za promenu vrednosti elementa.
 automobili[0] = "Mercedes";
 console.log(automobili);
@@ -74,7 +73,7 @@ console.log(dani);
 
 // da li neko ima ideju kako da dodamo element na poslednjem mestu u nizu ako ne znamo duzinu niza i ako ne koristimo push() metodu?
 
-dani[dani.length] = "subota";
+dani[dani.length] = "hatidza";
 console.log(dani);
 
 // Nizovi su zapravo vrsta objekata koji imaju brojevne indekse.
@@ -104,7 +103,7 @@ console.log(daniStr3);
 
 // dani.pop() varaca vrednost izbrisanog elementa.
 const subota = dani.pop();
-console.log(dani);
+// console.log(dani);
 console.log(subota);
 
 // Iz datog niza ispitati koliko elemenata je tipa string,
