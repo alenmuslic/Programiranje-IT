@@ -51,12 +51,12 @@ console.log(niz3);
 const niz4 = niz.map((student) => student[0].toUpperCase() + student.slice(1));
 console.log(niz4);
 
-// Domaci:
+//  Domaci:
 // 1. Pomocu map() metode napraviti novi niz stringova ciji ce elementi da budu
 // ispisani velikim slovima.
 
 // 2. Napraviti novi niz koji sadrzi kvadrate elemenata postojeceg niza:
-
+//
 // 3. Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg  niza.
 
 // 4.
