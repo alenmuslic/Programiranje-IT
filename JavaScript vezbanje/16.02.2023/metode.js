@@ -8,7 +8,7 @@
 // 3. substr(start, length)
 // replace() metoda vrsi zamenu nekoliko karaktera datog stringa. Ima 2 argumenta. Po defaultu replace() metoda menja samo prvo pronalazenje datog stringa.
 // concat() metoda vrsi spajanje dva ili vise stringova.
-// Sve string metode prave novu promenljivu (jer su stringovi immutable vrednosti).
+// Sve string metode prave novu pIromenljivu (jer su stringovi immutable vrednosti).
 // trim() metoda brise razmake sa obe strane stringa.
 // split() metode nam vraca niz na osnovu nekog stringa na koji je primenjen.
 // indexOf() metoda nam vraca prvu poziciju gde se zapravo nalazi poslati argument(jedan ili vise karaktera) kada se radi o nekom stringu.Drugi argument predstavlja poziciju od koje krecemo sa trazenjem stringa.
