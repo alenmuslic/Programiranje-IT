@@ -72,7 +72,8 @@ console.log(zbirGodina);
 
 const iznos = godine.reduce(
   (previousValue, currentValue) => previousValue + currentValue,
-  350
+  350,
+  90
 );
 console.log(iznos);
 
