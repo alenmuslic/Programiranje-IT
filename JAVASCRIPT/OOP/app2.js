@@ -4,7 +4,7 @@
 // Princip skrivanja informacija i funkcionalnosti objekta i pruzanje jednostavnog i jasnog interfejsa za rad sa tim objektom.
 
 // 2. Nasledjivanje (Inheritance)
-// Obaj princip na m omogucava kreiranje novih klasa na osnou postojecih. Samim tim se nasledjuju sve funkcionalnosti postojecih klasa.
+// Obaj princip nam omogucava kreiranje novih klasa na osnou postojecih. Samim tim se nasledjuju sve funkcionalnosti postojecih klasa.
 
 // 3. Polimorfizam
 // Ovaj princip omogucava koriscenje istog koda za rad sa razlicitim tipovima objekata.
@@ -30,7 +30,7 @@ class Person {
     console.log(`${this.#ime} ${this.#prezime}`);
   }
   // set metoda nam sluzi za promenu nekih svojstava koja su privatna unutar klase
-  set changeName(newName) {
+  set changeName1(newName) {
     this.#ime = newName;
   }
 }
