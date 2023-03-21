@@ -133,3 +133,14 @@ newDiv.append(textForNewDiv);
 container.appendChild(newDiv);
 
 input2.setAttribute("placeholder", "Unesite vasu email adresu");
+
+// let button = document.querySelector("button");
+// button.addEventListener("click", buttonClicker);
+// function buttonClicker(event) {
+//   if (button.style.backgroundColor == "blue") {
+//     button.style.backgroundColor = "red";
+//   } else {
+//     button.style.backgroundColor = "blue";
+//   }
+// }
+document.querySelector("button").style.backgroundColor = "red";
