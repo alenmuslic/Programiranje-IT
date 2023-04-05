@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>TO DO lista</h1>
+      <input type="text" id="input" />
+      <button class="add" onclick="dodaj()">Dodaj</button>
+      <select name="tasks" id="selector">
+        <option value="all">Sve</option>
+        <option value="done">Zavrseni</option>
+        <option value="notdone">Nezavrseni</option>
+      </select>
+    </header>
+    <ul>
+      <li><p ondblclick="linija()">Ustani pre 11</p></li>
+      <li><p ondblclick="linija()">zavrsi bridtv</p></li>
+      <li><p ondblclick="linija()">zavrsi todo listu</p></li>
+    </ul>
+    <script src="./app.js"></script>
+  </body>
+</html>

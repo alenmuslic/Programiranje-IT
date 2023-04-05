@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+h1 {
+  padding: 30px;
+  color: red;
+}
+input {
+  height: 30px;
+  width: 400px;
+}
+#selector {
+  height: 30px;
+}
+.add {
+  height: 30px;
+  width: 80px;
+  background-color: lime;
+}
+.add:hover {
+  background-color: green;
+}
+.add:active {
+  background-color: lime;
+}
+.header {
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
+  height: 170px;
+  background-color: beige;
+}
+ul {
+  margin: 0px auto;
+  width: 73%;
+  text-align: center;
+  height: 100%;
+}
+p {
+  display: inline-block;
+}
+li {
+  padding: 20px 0px;
+  font-size: 20px;
+  list-style-type: none;
+  background-color: grey;
+  margin-top: 20px;
+  width: 100%;
+}
+.obrisi {
+  height: 2vh;
+  width: 2vh;
+  background-color: red;
+  float: right;
+  margin-right: 30px;
+}
+.linija {
+  text-decoration: line-through;
+}

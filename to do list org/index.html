@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="hed">
+      <h1>TO DO LIST</h1>
+      <input type="text" id="input" />
+      <button class="button">Dodaj</button>
+      <select name="tasks" id="selector">
+        <option value="all"><b>Sve</b></option>
+        <option value="done">Zavrseni</option>
+        <option value="notdone">Nezavrseni</option>
+      </select>
+    </div>
+
+    <ul>
+      <li>
+        <p ondblclick="linija()">Primer 1</p>
+        <button class="obrisi"></button>
+      </li>
+      <li>
+        <p ondblclick="linija()">Primer 2</p>
+        <button class="obrisi"></button>
+      </li>
+      <li>
+        <p ondblclick="linija()">Primer 3</p>
+        <button class="obrisi"></button>
+      </li>
+    </ul>
+  </body>
+</html>

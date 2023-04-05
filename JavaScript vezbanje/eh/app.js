@@ -7,8 +7,8 @@ livesLeft = document.getElementById(".brojac");
 skor = document.querySelector(".hs");
 console.log(randomBr);
 console.log(tacno.textContent);
-
-var brojac = 21;
+rezultat = 20;
+// var brojac = 21;
 
 // if (isNaN(rezultat = "uneti broj je veci od 15" || "uneti broj je manji od 1" || "Broj koji ste uneli je veci" || "Broj koji ste uzeli je manji") {
 // return
@@ -32,7 +32,6 @@ function submit() {
   }
 }
 
-let count = 0;
 dugme.addEventListener("click", submit);
 
 const playAgainButton = document.getElementById("play-again-button");
