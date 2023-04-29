@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: mediumslateblue;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+
+  /* background-color: mediumslateblue; */
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
