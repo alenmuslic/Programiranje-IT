@@ -86,8 +86,11 @@ form .txt_flied {
 
 .alen input {
   width: 100%;
+  border-radius: 50px;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
   height: 50px;
   border: 1px solid;
+  text-decoration: none;
 }
 .alen input:hover {
   border-color: #2691d9;
